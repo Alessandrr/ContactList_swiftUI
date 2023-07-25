@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeScreenView.swift
 //  ContactList_swiftUI
 //
 //  Created by Aleksandr Mamlygo on 24.07.23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeScreenView: View {
     private let contacts = Person.getPeople()
     
     var body: some View {
@@ -28,6 +28,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeScreenView()
     }
 }
