@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct Person: Hashable {
+struct Person: Identifiable {
+    
+    let id: Int
     let firstName: String
     let secondName: String
     
@@ -31,6 +33,7 @@ struct Person: Hashable {
         
         for index in 0..<peopleCount {
             people.append(Person(
+                id: index + 1,
                 firstName: randomNames[index],
                 secondName: randomLastNames[index],
                 eMail: randomEmails[index],
@@ -43,7 +46,7 @@ struct Person: Hashable {
     
     //Только для Previews
     static func getPerson() -> Person {
-        Person(firstName: "Jon", secondName: "Smith", eMail: "example@manychat.com", phoneNumber: "+37441210079")
+        Person(id: 1, firstName: "Jon", secondName: "Smith", eMail: "example@manychat.com", phoneNumber: "+37441210079")
     }
 }
 

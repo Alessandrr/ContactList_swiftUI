@@ -12,7 +12,7 @@ struct NumbersListView: View {
     
     var body: some View {
         NavigationView {
-            List(contacts, id: \.self) { contact in
+            List(contacts) { contact in
                 Section(contact.fullName) {
                     Label(contact.phoneNumber, systemImage: "phone")
                     Label(contact.eMail, systemImage: "tray")
