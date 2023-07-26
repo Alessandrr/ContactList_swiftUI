@@ -16,7 +16,6 @@
 		1F78EF3A2A6EDF6800835023 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78EF392A6EDF6800835023 /* ContactListView.swift */; };
 		1F78EF3C2A6EDF8E00835023 /* NumbersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78EF3B2A6EDF8E00835023 /* NumbersListView.swift */; };
 		1F78EF3E2A6EE47900835023 /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78EF3D2A6EE47900835023 /* ContactDetailsView.swift */; };
-		1F78EF402A6EE72000835023 /* DetailsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78EF3F2A6EE72000835023 /* DetailsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		1F78EF392A6EDF6800835023 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
 		1F78EF3B2A6EDF8E00835023 /* NumbersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersListView.swift; sourceTree = "<group>"; };
 		1F78EF3D2A6EE47900835023 /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
-		1F78EF3F2A6EE72000835023 /* DetailsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 				1F78EF3D2A6EE47900835023 /* ContactDetailsView.swift */,
 				1F78EF3B2A6EDF8E00835023 /* NumbersListView.swift */,
 				1F78EF292A6EDD7E00835023 /* HomeScreenView.swift */,
-				1F78EF3F2A6EE72000835023 /* DetailsRowView.swift */,
 				1F78EF2B2A6EDD7F00835023 /* Assets.xcassets */,
 				1F78EF2D2A6EDD7F00835023 /* Preview Content */,
 			);
@@ -157,7 +154,6 @@
 			files = (
 				1F78EF3A2A6EDF6800835023 /* ContactListView.swift in Sources */,
 				1F78EF362A6EDD9800835023 /* Person.swift in Sources */,
-				1F78EF402A6EE72000835023 /* DetailsRowView.swift in Sources */,
 				1F78EF382A6EDE1E00835023 /* DataManager.swift in Sources */,
 				1F78EF3E2A6EE47900835023 /* ContactDetailsView.swift in Sources */,
 				1F78EF3C2A6EDF8E00835023 /* NumbersListView.swift in Sources */,

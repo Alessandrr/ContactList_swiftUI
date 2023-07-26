@@ -20,8 +20,8 @@ struct ContactDetailsView: View {
                         .frame(width: 150, height: 150)
                     Spacer()
                 }
-                DetailsRowView(detailType: .phone, detailContent: contact.phoneNumber)
-                DetailsRowView(detailType: .eMail, detailContent: contact.eMail)
+                Label(contact.phoneNumber, systemImage: "phone")
+                Label(contact.eMail, systemImage: "tray")
             }
         }
         .navigationTitle(contact.fullName)

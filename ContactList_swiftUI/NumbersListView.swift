@@ -14,8 +14,8 @@ struct NumbersListView: View {
         NavigationView {
             List(contacts, id: \.self) { contact in
                 Section(contact.fullName) {
-                    DetailsRowView(detailType: .phone, detailContent: contact.phoneNumber)
-                    DetailsRowView(detailType: .eMail, detailContent: contact.eMail)
+                    Label(contact.phoneNumber, systemImage: "phone")
+                    Label(contact.eMail, systemImage: "tray")
                 }
             }
             .navigationTitle("Detailed contacts")
